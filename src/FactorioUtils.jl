@@ -1,5 +1,9 @@
 module FactorioUtils
 
-# package code goes here
+    export
+        # Blueprint
+        decode_blueprint,
+        encode_blueprint
 
-end # module
+    include("blueprint.jl")
+end # FactorioUtils Module
